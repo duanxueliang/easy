@@ -9,7 +9,7 @@ $dsn = "mysql:host=localhost;dbname=u19";
 $pdo = new PDO($dsn,"root","892832",array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
 //查询全表
 $sql = "select * from nuser where useName=?";
-//预编译处理
+//预编译处理  
 
 //循环数组
 
